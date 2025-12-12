@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.font-pixel {
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Neon glow text */
+.neon-text {
+  text-shadow: 0 0 5px #00fff0, 0 0 10px #00fff0, 0 0 20px #00fff0;
+}
+
+/* Neon shadow for cards/buttons */
+.shadow-neon {
+  box-shadow: 0 0 10px #00fff0, 0 0 20px #00fff0, 0 0 40px #00fff0;
+}
+
+/* 3D hover rotation effect */
+.rotate-3d-card:hover {
+  transform: rotateY(10deg) rotateX(5deg) scale(1.05);
+}
+
+/* Perspective for 3D effect */
+.perspective {
+  perspective: 1000px;
+}
+
+/* Smooth GPU transform */
+.transform-gpu {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
